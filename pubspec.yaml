@@ -1,0 +1,29 @@
+name: proyecto_belcomspa_flutter
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  cupertino_icons: ^1.0.0
+  awesome_dialog: ^3.1.0
+  flutter:
+    sdk: flutter
+  http: ^0.13.0
+
+  shared_preferences: ^2.0.8
+  provider: ^6.1.1
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets: 
+    - assets/img/
